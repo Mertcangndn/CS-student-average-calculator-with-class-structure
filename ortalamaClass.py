@@ -17,10 +17,14 @@ class Ogrenci():
         sum=self.bil111+self.bil103+self.mat101+self.imu021+self.imu011
         ortalama=sum/5
         print("{} Adlı {} Numaralı Öğrencinin Ders Bazlı Ortalaması = {}".format(self.isim,self.numara,ortalama))
+
+    def table(self):            #Bu kodu internet gelince dene.
+        plt.bar(("bil111","bil103","mat101","imu021","imu011","bil121"),(self.bil111,self.bil103,self.mat101,self.imu021,self.imu011,self.bil121))
         
 <NESNE İSMİ> = Ogrenci("isim", numara, bil111, bil103, mat101, imu021, imu011, bil121)                                  ###
 
 <NESNE İSMİ>.ort()                                                                                                      ###
+<NESNE İSMİ>.table()                                                                                                    ###
 
 print(<NESNE İSMİ>.okul)     #Python nesne üzerinden class'a erişmeye izin verdiği için sorunsuz çalışacaktır,          ###
 print(Ogrenci.okul)     #ancak başka IDE'ler için en doğru kullanum alttaki gibi olacaktır.
