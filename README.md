@@ -24,4 +24,4 @@ avg(self)
 
 Calculates the average of the grades and prints the result.
 
-### = Renameble variables
+/### = Renameble variables
