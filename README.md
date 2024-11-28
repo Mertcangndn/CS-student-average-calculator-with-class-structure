@@ -23,3 +23,5 @@ Constructor method to initialize the student's information.
 avg(self)
 
 Calculates the average of the grades and prints the result.
+
+### = Renameble variables
